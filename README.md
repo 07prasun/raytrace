@@ -1,5 +1,6 @@
 # raytrace
 Interactive CPU ray tracer in the browser. 
+![gif of the code working](./assets/proj3.gif)
 Click a pixel to trace it. You'll see the ray tree drawn over the image and in a 2D schematic, along with each number used along the way: the intersection maths for every object, the surface normal, the shadow rays, the Phong lighting terms, Snell refraction, Fresnel weights and how the final color is blended. There's no WebGL and no 3D library. The renderer is about 400 lines of plain TypeScript running on the CPU.
 
 ### Clone, then run it with: 
